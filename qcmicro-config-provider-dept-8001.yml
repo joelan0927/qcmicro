@@ -23,7 +23,7 @@ spring:
       test-while-idle: true
 mybatis:
   config-location: classpath:mybatis/mybatis.xml
-  type-aliases-package: com.qc.micro
+  type-aliases-package: com.qc.micro.entity
   mapper-locations: 
   - classpath:mybatis/mapper/**/*Mapper.xml
 eureka:
@@ -57,7 +57,7 @@ spring:
       test-while-idle: true
 mybatis:
   config-location: classpath:mybatis/mybatis.xml
-  type-aliases-package: com.qc.micro
+  type-aliases-package: com.qc.micro.entity
   mapper-locations: 
   - classpath:mybatis/mapper/**/*Mapper.xml
 eureka:
