@@ -36,6 +36,7 @@ eureka:
 info:
   app.name: qcmicro-config-provider-dept-8001
   company.name: 青菜网络科技有限公司
+  
 ---
 server:
   port: 8011
@@ -63,7 +64,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001.com:7011/eureka/,http://eureka7002.com:7012/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
   instance:
     instance-id: qcmicro-provider-dept-8011
     prefer-ip-address: true
