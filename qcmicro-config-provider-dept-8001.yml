@@ -33,9 +33,9 @@ eureka:
   instance:
     instance-id: qcmicro-provider-dept-8001
     prefer-ip-address: true
-  info:
-    app.name: qcmicro-config-provider-dept-8001
-    company.name: 青菜网络科技有限公司
+info:
+  app.name: qcmicro-config-provider-dept-8001
+  company.name: 青菜网络科技有限公司
 ---
 server:
   port: 8011
@@ -67,6 +67,6 @@ eureka:
   instance:
     instance-id: qcmicro-provider-dept-8011
     prefer-ip-address: true
-  info:
-    app.name: qcmicro-config-provider-dept-8011
-    company.name: 青菜网络科技有限公司
+info:
+  app.name: qcmicro-config-provider-dept-8011
+  company.name: 青菜网络科技有限公司
