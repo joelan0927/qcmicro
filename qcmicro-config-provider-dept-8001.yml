@@ -21,6 +21,11 @@ spring:
       max-total: 5                                     # 最大连接数
       max-wait-millis: 200                             # 等待连接获取的最大超时时间
       test-while-idle: true
+mybatis:
+  config-location: classpath:mybatis/mybatis.xml
+  type-aliases-package: com.qc.micro
+  mapper-locations: 
+  - classpath:mybatis/mapper/**/*Mapper.xml
 eureka:
   client:
     service-url:
@@ -50,6 +55,11 @@ spring:
       max-total: 5                                     # 最大连接数
       max-wait-millis: 200                             # 等待连接获取的最大超时时间
       test-while-idle: true
+mybatis:
+  config-location: classpath:mybatis/mybatis.xml
+  type-aliases-package: com.qc.micro
+  mapper-locations: 
+  - classpath:mybatis/mapper/**/*Mapper.xml
 eureka:
   client:
     service-url:
