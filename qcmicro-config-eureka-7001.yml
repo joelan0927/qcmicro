@@ -1,0 +1,15 @@
+﻿server:
+  port: 7001
+spring:
+  application:
+    name: qcmicro-config-eureka-7001
+eureka:
+  server:
+    enable-self-preservation: true  #eureka自我保护机制（默认是true，无特殊要求建议使用默认）
+  instance:
+    hostname: eureka7001.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url: 
+      defaultZone: http://eureka7002.com:7002/eureka/
