@@ -1,8 +1,8 @@
 ﻿server:
   port: 1011
 spring:
+  profiles: dev
   application:
-    profiles: dev
     name: qcmicro-config-zuul
 eureka:
   client:
@@ -23,12 +23,13 @@ zuul:
 info:
   app.name: qcmicro-config-zuul-1011
   company.name: 青菜网络科技有限公司
+  
 ---
 server:
   port: 2011
 spring:
+  profiles: test
   application:
-    profiles: test
     name: qcmicro-config-zuul
 eureka:
   client:
