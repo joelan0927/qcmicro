@@ -3,11 +3,11 @@
     active: dev
 ---
 server:
-  port: 8001
+  port: 8011
 spring:
   application:
     profiles: dev
-    name: qcmicro-config-provider-dept-8001
+    name: qcmicro-config-provider-user-8011
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
@@ -30,10 +30,10 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
   instance:
-    instance-id: qcmicro-provider-dept-8001
+    instance-id: qcmicro-provider-user-8011
     prefer-ip-address: true
 info:
-  app.name: qcmicro-config-provider-dept-8001
+  app.name: qcmicro-config-provider-user-8011
   company.name: 青菜网络科技有限公司
 
 
