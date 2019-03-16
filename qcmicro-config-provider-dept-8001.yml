@@ -6,8 +6,8 @@
 server:
   port: 8001
 spring:
+  profiles: dev
   application:
-    profiles: dev
     name: qcmicro-config-provider-dept
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource

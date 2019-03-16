@@ -1,8 +1,8 @@
 ﻿server:
   port: 6001      #可以经过nginx再进行一次软负载，反向代理
 spring:
+  profiles: dev
   application:
-    profiles: dev
     name: qcmicro-config-consumer-6001
 feign:
   hystrix:
