@@ -48,7 +48,7 @@ zuul:
   routes:
     mydept.serviceId: qcmicro-config-provider-dept       			# 此配置将此服务名用下面的path代替
     mydept.path: /mydept/**
-	myuser.userId: qcmicro-config-provider-user       				# 此配置将此服务名用下面的path代替
+    myuser.userId: qcmicro-config-provider-user       				# 此配置将此服务名用下面的path代替
     myuser.path: /myuser/**
 info:
   app.name: qcmicro-config-zuul-2011
