@@ -13,7 +13,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
 
----	  
+---
 server:
   port: 6011      #可以经过nginx再进行一次软负载，反向代理
 spring:
